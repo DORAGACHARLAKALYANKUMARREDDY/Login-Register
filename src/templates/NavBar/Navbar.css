@@ -1,0 +1,63 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #3498db; /* Change color to a blue shade */
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px; /* Adjust the height to your preference */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #2fd037; /* Darker shade on hover */
+}
+.navbar button:hover{
+  background-color: #2fd037;  
+}
+
+input {
+  flex-grow: 1;  
+  margin-right: 10px;
+}
+
+ input {
+  padding: 10px;
+  height: 30px;
+  width: 10px;
+}
+
+.search-bar button {
+  padding: 8px;
+  background-color: #2ecc71; /* Change color to a green shade */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #27ae60; /* Darker shade on hover */
+}
+
+ a {
+  color: rgb(199, 51, 51);
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+ a:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
